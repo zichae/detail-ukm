@@ -45,7 +45,7 @@ nav {
     background-color: #083465;
     color: #f0f0f0;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
 
@@ -96,7 +96,7 @@ h1 {
 
 .card-vm {
     background-color: #F9FAFB;
-    margin-top: 80px;
+    margin-top: 10px;
     border-radius: 24px;
 }
 
@@ -107,11 +107,14 @@ h1 {
 
 .card-title {
     text-align: center;
+    margin-top: 80px;
+
 }
 
 .badge {
     margin-top: 80px;
-    font-size: 30px;
+    font-size: 28px;
+    font-weight: 600;
     color: #093D77;
     width: 473px;
     background-color: #F9FAFB;
@@ -121,6 +124,11 @@ h1 {
 
 .card-profile {
     margin-top: 50px;
+    
+}
+
+.card-body{
+    margin-bottom: -20px;
 }
 
 .card-profile h5 {
@@ -131,8 +139,9 @@ h1 {
 
 .card-profile p {
     font-family: "inter", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #00923E;
+    margin-bottom: 0px;
 }
 
 
@@ -144,6 +153,9 @@ h1 {
 
 .dokumentasi h5 {
     color: #00923E;
+    font-size: 18px;
+    font-family: "inter" sans-serif;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -151,9 +163,10 @@ h1 {
     text-align: center;
 }
 
+
 .bg-img {
     margin-top: 50px;
-    background: url(../images/fotodivisi.png);
+    background: url(../images/oke.png);
     width: 100%;
     height: 550px;
     background-size: cover;
@@ -165,6 +178,13 @@ h1 {
     position: absolute;
     text-align: left;
     padding: 30px;
+    margin-top: 300px;
+}
+.text-places h3 {
+    font-size: 30px;
+    font-family: "inter" sans-serif;
+    font-weight: 100;
+    width: 519px;
 }
 
 
@@ -197,7 +217,44 @@ footer a {
     background-color: #00662a;
 }
 
+.btn-success {
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 32px;
+    font-size: 12px;
+    font-family: "inter", sans-serif;
+}
 
+.footer_col ul {
+    list-style: none;
+}
+
+.footer_col_dev {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #6E737C;
+}
+
+.footer_col_title {
+    margin-top: 96px;
+    font-weight: 600;
+}
+
+.footer_logo {
+    margin-top: 96px;
+    margin-bottom: 24px;
+}
+
+#footer_desc {
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: #6E737C;
+    width: 350px;
+    height: 84px;
+}
 /* Untuk layar device ukuran BESAR */
 
 @media screen and (min-width: 450px) {
@@ -209,9 +266,12 @@ footer a {
 
 /* Untuk layar device ukuran SEDANG */
 
-@media screen and (min-width: 550px) {
+@media screen and (max-width: 576px) {
     .intro {
         margin-top: 30%;
+    }
+    .btn-success {
+        margin-bottom: 50px;
     }
 }
 

@@ -92,11 +92,11 @@
             <!-- Visi Misi -->
 
             <div class="row">
+                <h2 class="card-title">Divisi Lembaga Dakwah Kampus</h2>
                 <div class="col-6">
                     <div class="card-vm" id="visi">
                         <div class="card-body">
-                            <h5>VISI</h5>
-                            <h2 class="card-title">Visi Divisi Lembaga Dakwah Kampus</h2>
+                            <h5>Visi</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est corrupti. Praesentium laborum, similique a beatae nostrum aliquid ex, dolorem sit dolore iusto nihil soluta quod necessitatibus nisi quos doloribus!
                                 <br>1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor velit, doloribus quos porro esse quidem nulla veritatis.<br> 2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor velit, doloribus quos
                                 porro esse quidem nulla veritatis. <br>3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor velit, doloribus quos porro esse quidem nulla veritatis.<br>
@@ -107,8 +107,7 @@
                 <div class="col-6">
                     <div class="card-vm" id="misi">
                         <div class="card-body">
-                            <h5>MISI</h5>
-                            <h2 class="card-title">Misi Divisi Lembaga Dakwah Kampus</h2>
+                            <h5>Misi</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est corrupti. Praesentium laborum, similique a beatae nostrum aliquid ex, dolorem sit dolore iusto nihil soluta quod necessitatibus nisi quos doloribus!
                                 <br>1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor velit, doloribus quos porro esse quidem nulla veritatis.<br> 2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor velit, doloribus quos
                                 porro esse quidem nulla veritatis. <br>3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor velit, doloribus quos porro esse quidem nulla veritatis.<br>
@@ -131,7 +130,7 @@
                         <img src="images/profile-1.jpeg" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title" id="nama-pengurus">Faiq Sastra Dinata</h5>
-                            <p class="card-text" id="jabatan">Gatau ini apa</p>
+                            <p class="card-text" id="jabatan">Koordinator Minat Dan Bakat 2020-2021</p><br>
                         </div>
                     </div>
                 </div>
@@ -139,8 +138,8 @@
                     <div class="card card-profile">
                         <img src="images/profile-2.jpeg" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title" id="nama-pengurus">Faiq Sastra Dinata</h5>
-                            <p class="card-text" id="jabatan">Gatau ini apa</p>
+                            <h5 class="card-title" id="nama-pengurus">Ayu Medina Hew</h5>
+                            <p class="card-text" id="jabatan">Sekretaris 1</p><br>
                         </div>
                     </div>
                 </div>
@@ -149,7 +148,7 @@
                         <img src="images/profile-3.jpeg" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title" id="nama-pengurus">Faiq Sastra Dinata</h5>
-                            <p class="card-text" id="jabatan">Gatau ini apa</p>
+                            <p class="card-text" id="jabatan">Sekretaris 2</p><br>
                         </div>
                     </div>
                 </div>
@@ -157,12 +156,12 @@
 
             <!-- Dokumentasi -->
             <section class="dokumentasi">
-                <h5>Kegiatan</h5>
+                <h5>Proker</h5>
                 <h3 id="dok-title">Dokumentasi UKM LDK</h3>
                 <div class="bg-img d-flex">
                     <div class="text-places">
-                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam possimus aliquid nemo sapiente!</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam autem cumque dolorem voluptatibus, itaque accusamus fuga nam corporis veritatis ad sequi dolores expedita explicabo repellat. Reprehenderit, unde totam? Accusamus!</p>
+                        <h3 id="text-big">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam possimus aliquid nemo sapiente!</h3>
+                        <p id="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam autem cumque dolorem voluptatibus, itaque accusamus fuga nam corporis veritatis ad sequi dolores expedita explicabo repellat. Reprehenderit, unde totam? Accusamus!</p>
                     </div>
 
                 </div>
@@ -171,94 +170,99 @@
     </div>
 
     <!-- Footer -->
-    <footer class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="logo-footer">
-                        <img src="images/logo.png" width="40" alt="">
-                        <img src="images/logo.png" width="40" alt="">
-                    </div>
-                    <p id="footer-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rem odit libero error corporis molestiae quidem.</p>
-                    <div class="sosmed-footer">
-                        <a href="#">
-                            <img src="images/logo.png" width="30" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="images/logo.png" width="30" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="images/logo.png" width="30" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="images/logo.png" width="30" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-2">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-2">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#">Lorem</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col" id="contact">
-                    <h5>Hubungi Kami</h5>
-                    <button class="btn" id="btn-footer">Hubungi Kami</button>
-                </div>
-            </div>
-            <div class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
-                <p id="copyright">© 2022 BEM BIU. All rights reserved. </p>
-            </div>
-        </div>
-    </footer>
+    <footer class="footer">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-4">
+
+					<!-- Footer Intro -->
+					<div class="footer_intro">
+
+						<!-- Logo -->
+						<div class="footer_logo">
+                            <a href="#"><img src="images/logo.png" alt="" style="width: 50px;"></a>
+							<a href="#"><img src="images/biu.png" alt="" style="width: 50px;"></a>
+						</div>
+
+						<p id="footer_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum ha industry's</p>
+						
+						<!-- Social -->
+						<div class="footer_social">
+                                <img src="images/ig.png">
+                                <img src="images/linkedin.png">
+                                <img src="images/twitter.png">
+                                <img src="images/facebook.png">
+						</div>
+						
+						<!-- Copyright -->
+
+					</div>
+
+				</div>
+				
+				<!-- Footer Services -->
+	
+
+				<!-- Footer Menu -->
+				<div class="col-lg-2">
+
+					<div class="footer_col">
+						<div class="footer_col_title">Devisi</div>
+                        <div class="footer_col_dev">
+							<a href="#">Devisi 1</a> <br>
+							<a href="#">Devisi 2</a> <br>
+							<a href="#">Devisi 3</a> <br>
+							<a href="#">Devisi 4</a> <br>
+							<a href="#">Devisi 5</a>
+                        </div>
+					</div>
+
+				</div>
+
+				<!-- Footer About -->
+				<div class="col-lg-2">
+
+					<div class="footer_col">
+						<div class="footer_col_title">Tentang</div>
+						<div class="footer_col_dev">
+							<a href="#">Berita</a> <br>
+							<a href="#">Program</a> <br>
+							<a href="#">Sejarah</a> <br>
+                        </div>
+					</div>
+
+				</div>
+
+				<!-- Footer Community -->
+				<div class="col-lg-2">
+
+					<div class="footer_col">
+						<div class="footer_col_title">BEM BiU</div>
+						<div class="footer_col_dev">
+							<a href="#">Struktur</a> <br>
+							<a href="#">Program</a> <br>
+							<a href="#">Struktur Program</a> <br>
+                            <a href="#">Sejarah</a>
+                        </div>
+					</div>
+
+				</div>
+				<div class="col-lg-2">
+                    <div class="footer_col_title">Hubungi Kami</div>
+          <span class="btn-nav">
+            <button type="button" class="btn btn-success"><img src="images/telp.png">Kontak Kami</button>
+
+        </span>
+				</div>
+
+			</div>
+
+	</footer>
 
     <script src="assets/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
+
 </body>
 
 </html>
